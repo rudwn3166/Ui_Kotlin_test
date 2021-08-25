@@ -14,7 +14,15 @@ class MainActivity : AppCompatActivity() {
             val inpuContent=contentEdt.text.toString()
         //            저장해둔 입력 값을 ->텍스트뷰에 반영하기 (set-값을 대입)
 
-            resultTxt.text=inpuContent
+            if(inpuContent=="안녕하세요"){
+                resultTxt.text="반가워요"
+            }
+
+            else{
+                resultTxt.text="안녕하세요?"
+
+            }
+
 
         }
 
